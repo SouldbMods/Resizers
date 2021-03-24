@@ -18,6 +18,7 @@ import org.souldb.resizers.procedures.FouroneProcedure;
 import org.souldb.resizers.procedures.EightoneProcedure;
 import org.souldb.resizers.item.SixteenItem;
 import org.souldb.resizers.item.ResizersItemGroup;
+import org.souldb.resizers.item.ResetterItem;
 import org.souldb.resizers.item.FourItem;
 import org.souldb.resizers.item.EightItem;
 
@@ -37,6 +38,7 @@ public class ResizersMod implements ModInitializer {
 	public static final Item Eight_ITEM = Registry.register(Registry.ITEM, id("eight"), new EightItem());
 	public static final Item Four_ITEM = Registry.register(Registry.ITEM, id("four"), new FourItem());
 	public static final Item Sixteen_ITEM = Registry.register(Registry.ITEM, id("sixteen"), new SixteenItem());
+	public static final Item Resetter_ITEM = Registry.register(Registry.ITEM, id("resetter"), new ResetterItem());
 	public static final ItemGroup Resizers = ResizersItemGroup.get();
 	@Override
 	public void onInitialize() {

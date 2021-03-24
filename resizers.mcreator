@@ -97,14 +97,29 @@
       "ids": {},
       "registry_name": "resetsize",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
+    },
+    {
+      "name": "Resetter",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "resetter"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.resizers.resetter": "Resetter",
       "item.resizers.sixteen": "1/16 Resizer",
       "item.resizers.eight": "1/8 Resizer",
       "itemGroup.resizers.resizers": "Resizers",
