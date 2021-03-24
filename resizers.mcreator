@@ -1,0 +1,136 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Eight",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eight"
+    },
+    {
+      "name": "Resizers",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "resizers"
+    },
+    {
+      "name": "Four",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four"
+    },
+    {
+      "name": "Sixteen",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sixteen"
+    },
+    {
+      "name": "Eightone",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eightone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fourone",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fourone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sixteenone",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sixteenone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Resetsize",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "resetsize",
+      "metadata": {
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.resizers.sixteen": "1/16 Resizer",
+      "item.resizers.eight": "1/8 Resizer",
+      "itemGroup.resizers.resizers": "Resizers",
+      "item.resizers.four": "1/4 Resizer"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "resizers",
+    "modName": "Resizers",
+    "version": "0.0.1",
+    "description": "Requires Pehuki. Bits and chisels is recomended.     1.16-1.17 is supported          ",
+    "author": "Souldbminer",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [
+      "pehkui"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.16.5",
+    "credits": "Virtoel for Pehkui",
+    "modElementsPackage": "org.souldb.resizers",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100103117
+}
